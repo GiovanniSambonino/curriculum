@@ -33,7 +33,7 @@ h1,
 h2,
 h3 {
     color: #fffffe;
-    font-family: "Ubuntu-Regular";
+    font-family: "Digital-Regular";
     font-size: 3.3em;
     text-align: center;
 }
@@ -41,6 +41,12 @@ h3 {
 h4,
 h5,
 h6 {
+    color: #fffffe;
+    font-family: "welcome-bold";
+    text-align: inherit;
+}
+
+h4{
     color: #fffffe;
     font-family: "Ubuntu-Regular";
     text-align: inherit;
@@ -93,6 +99,7 @@ h6 {
 }
 
 .header__info {
+    
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -109,12 +116,14 @@ h6 {
 }
 
 .header__info h1 {
+    font-family: 'Ubuntu-Regular';
     color: #c2c6ce;
     text-align: left;
     margin: 0;
 }
 
 .header__info h4 {
+    font-family: 'Ubuntu-Regular';
     color: #c2c6ce;
     padding: 5px 0 30px;
     font-size: 20px;
@@ -163,6 +172,7 @@ h6 {
 }
 
 .nav {
+    font-family: 'Digital-Regular';
     height: 80px;
     background-color: #668dc0;
     font-size: 20px;
