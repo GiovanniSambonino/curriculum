@@ -346,20 +346,15 @@ meter::-webkit-meter-even-less-good-value {
     flex-direction: row-reverse;
 }
 
-.area__element--center {
-    text-align: center;
-    flex-direction: column;
-    position: relative;
-    transform: translateX(250px);
-}
 
 .area__name {
-    padding: 20px;
+    padding: 50px;
     background-color: #304a6e;
     color: #fffffe;
 }
 
 .area__description {
+    text-align: center;
     padding: 20px;
     background-color: #c2c6ce;
 }
